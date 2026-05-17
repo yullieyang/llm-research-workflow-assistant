@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Environment files
+.env
+.Renviron
+
+# Editor / OS
+.DS_Store
+.idea/
+.vscode/
+
+# Generated outputs (kept local; not committed)
+outputs/
+
+# Logs
+*.log
