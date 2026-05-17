@@ -1,12 +1,12 @@
 # llm-research-workflow-assistant
 
-A small prototype that explores how AI coding tools and LLM-assisted workflows can support recurring research-support tasks — data QA, code review, documentation drafting, and research brief review — while keeping human validation central.
+A responsible research workflow prototype for QA, documentation, and human-in-the-loop review. It packages the recurring shape of research-support work — data QA, code review, documentation drafting, brief review, and reviewer sign-off — into reusable templates and worked examples, with explicit rules for where AI coding tools may support the workflow and where they may not.
 
 ## Project overview
 
-This repository is a workflow prototype, not a production system. It contains reusable prompt templates, illustrative examples, a small Python utility, and responsible-use documentation that together demonstrate how an analyst, research assistant, or technology analyst could use AI tools (e.g., Claude Code) to make recurring research workflows more systematic and reviewable.
+This repository is a workflow prototype, not a production system. It contains reusable prompt templates, illustrative examples, a small Python utility for generating blank review files, and responsible-use documentation. The prompts and checklists are analyst-owned; AI coding tools may produce draft review comments or documentation, but the workflow logic, source validation, and final review remain human-owned.
 
-The project intentionally stays small and realistic. It does not attempt to automate research, replace analyst judgment, or validate live data.
+The project intentionally stays small and realistic. It does not automate research, replace analyst judgment, or validate live data.
 
 ## Why this matters for research-support workflows
 
@@ -125,12 +125,14 @@ See [docs/limitations.md](docs/limitations.md).
 
 This project translates recurring patterns from research-support work —
 data QA, code review, brief review, documentation drafting, and
-human-in-the-loop validation — into a public portfolio prototype for
-the responsible use of AI coding tools. The sample inputs and examples
-are fictional, and the prototype emphasizes that AI supports analyst
-workflows rather than replacing analyst judgment. The goal is to
-demonstrate reproducible, reviewable workflow design around AI-assisted
-review.
+human-in-the-loop validation — into a public portfolio prototype. The
+sample inputs and examples are fictional, and the prototype emphasizes
+analyst-owned logic with AI coding tools positioned as drafting and
+consistency support. AI coding tools may support scaffolding,
+documentation review, and consistency checks, but the workflow logic,
+assumptions, validation criteria, and final outputs remain
+human-reviewed. The goal is to demonstrate reproducible, reviewable
+workflow design.
 
 ## Future improvements
 
