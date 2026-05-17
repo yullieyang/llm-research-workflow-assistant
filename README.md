@@ -121,6 +121,17 @@ The full checklist lives in [docs/human_in_the_loop_review.md](docs/human_in_the
 
 See [docs/limitations.md](docs/limitations.md).
 
+## Portfolio Context
+
+This project translates recurring patterns from research-support work —
+data QA, code review, brief review, documentation drafting, and
+human-in-the-loop validation — into a public portfolio prototype for
+the responsible use of AI coding tools. The sample inputs and examples
+are fictional, and the prototype emphasizes that AI supports analyst
+workflows rather than replacing analyst judgment. The goal is to
+demonstrate reproducible, reviewable workflow design around AI-assisted
+review.
+
 ## Future improvements
 
 - Add a small evaluation harness that scores AI review outputs against hand-graded reference reviews.
